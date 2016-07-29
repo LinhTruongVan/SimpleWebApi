@@ -3,3 +3,6 @@ packages
 
 SimpleWebApi/bin
 SimpleWebApi/obj
+
+SimpleWebApi.Domain/bin
+SimpleWebApi.Domain/obj
