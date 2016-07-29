@@ -6,3 +6,6 @@ SimpleWebApi/obj
 
 SimpleWebApi.Domain/bin
 SimpleWebApi.Domain/obj
+
+SimpleWebApi.Data/bin
+SimpleWebApi.Data/obj
