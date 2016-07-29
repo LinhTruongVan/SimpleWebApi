@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using SimpleWebApi.Infrastructure.Mappings;
+using System.Web.Http;
 
 namespace SimpleWebApi.App_Start
 {
@@ -9,7 +10,7 @@ namespace SimpleWebApi.App_Start
             // Configure Autofac
             AutofacWebapiConfig.Initialize(GlobalConfiguration.Configuration);
             //Configure AutoMapper
-            //AutoMapperConfiguration.Configure();
+            AutoMapperConfiguration.Configure();
         }
     }
 }

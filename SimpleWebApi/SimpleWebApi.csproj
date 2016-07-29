@@ -266,6 +266,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Mappings\AutoMapperConfiguration.cs" />
+    <Compile Include="Infrastructure\Mappings\DomainToViewModelMappingProfile.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -282,6 +284,8 @@
     <Compile Include="ViewModels\Account\SetPasswordBindingModel.cs" />
     <Compile Include="ViewModels\Account\UserInfoViewModel.cs" />
     <Compile Include="ViewModels\Account\UserLoginInfoViewModel.cs" />
+    <Compile Include="ViewModels\CategoryViewModel.cs" />
+    <Compile Include="ViewModels\GadgetViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
