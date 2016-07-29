@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using SimpleWebApi.App_Start;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -14,6 +11,7 @@ namespace SimpleWebApi
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            Bootstrapper.Run();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
